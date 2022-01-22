@@ -1,0 +1,111 @@
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ p,
+ a {
+     color: #fff !important
+ }
+
+ .frontpage-header-button {
+     margin-right: 5px
+ }
+
+ .row-right {
+     background-color: #2d2d30
+ }
+
+ .row-left {
+     background-color: #242526
+ }
+
+ .tech-block {
+     text-align: center
+ }
+
+ .tech-block h5 {
+     margin-top: .3em;
+     margin-bottom: .1em
+ }
+
+ .tech-block p {
+     color: #c8c8c8
+ }
+
+ .tech-block img {
+     -webkit-filter: grayscale(100%);
+     transition-duration: .4s;
+     width: 72px
+ }
+
+ .tech-block img:hover {
+     -webkit-filter: grayscale(0%)
+ }
+
+ .feature {
+     min-height: 350px;
+     max-height: 350px
+ }
+
+ .feature-container {
+     background-color: #2d2d30;
+     padding-right: 5px;
+     padding-left: 5px;
+     height: 340px;
+     text-align: center;
+     overflow: hidden
+ }
+
+ .feature-container i {
+     padding-top: 32px;
+     padding-bottom: 16px;
+     font-size: 48px
+ }
+
+ .feature-container h3 {
+     padding-bottom: 4px
+ }
+
+ .feature-container p {
+     padding-left: 10px;
+     padding-right: 10px
+ }
+
+ .feature-container:hover {
+     filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.3));
+     transform: scale(1.02)
+ }
+
+ .technologies {
+     background: url(../images/clients-background.jpg) center no-repeat fixed;
+     background-size: 100%
+ }
+
+ @media(min-width:1300px) {
+     .header-container .header-content .title-product img {
+         max-width: 40rem !important
+     }
+     .rotated-gui-right {
+         transform: scalex(1.1) scaley(1.1) perspective(500px) rotateY(-10deg) rotateX(-1deg) rotateZ(2deg);
+         filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.3))
+     }
+     .rotated-gui-left {
+         transform: scalex(1.1) scaley(1.1) perspective(500px) rotateY(10deg) rotateX(1deg) rotateZ(2deg);
+         filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.3))
+     }
+ }
+
+ @media(max-width:992px) {}
+
+ @media(max-width:767px) {
+     .frontpage-header-button {
+         margin-right: 2px;
+         margin-left: 2px
+     }
+ }
+
+ @media(max-width:510px) {}
+
+ @media(max-width:420px) {}
